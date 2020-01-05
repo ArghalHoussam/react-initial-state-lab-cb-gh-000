@@ -5,6 +5,12 @@ class ImageSlider extends React.Component {
   constructor() {
 
   }
+
+  render() {
+    return (
+
+    )
+  }
 }
 
 export default ImageSlider;
