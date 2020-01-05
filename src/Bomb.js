@@ -13,7 +13,7 @@ class Bomb extends React.Component {
 
   render() {
     return (
-      this.state.secondsLeft === 0 ? 'Boom!' : 'seconds left before I go boom!'
+      <div> { this.state.secondsLeft === 0 ? 'Boom!' : 'seconds left before I go boom!' } </div>
     );
   }
 }
