@@ -6,6 +6,12 @@ class Bomb extends React.Component {
   constructor() {
 
   }
+
+  render() {
+    return (
+      
+    )
+  }
 }
 
 export default Bomb;
