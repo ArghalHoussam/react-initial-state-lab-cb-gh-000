@@ -5,9 +5,9 @@ import React from 'react';
 class Bomb extends React.Component {
   constructor(props) {
     super();
-    const initialCount = this.props.initialCount;
+    const ic = this.props.initialCount;
     this.state = {
-      secondsLeft: initialCount
+      secondsLeft: ic
     }
   }
 
