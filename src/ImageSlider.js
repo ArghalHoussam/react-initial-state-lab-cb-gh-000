@@ -4,7 +4,9 @@ import React from 'react';
 class ImageSlider extends React.Component {
   constructor(props) {
     super();
-    this.state.currentSlideIndex = 0;
+    this.state = {
+      currentSlideIndex: 0;
+    }
   }
 
   render() {
